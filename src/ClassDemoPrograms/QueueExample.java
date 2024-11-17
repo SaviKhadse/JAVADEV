@@ -1,4 +1,7 @@
+package ClassDemoPrograms;
+
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class QueueExample {
     public static void main(String[] args) {
@@ -23,7 +26,7 @@ public class QueueExample {
         System.out.println("Is queue empty"+ queue.isEmpty());
 
         while (!queue.isEmpty()){
-            System.out.println(queue.poll);
+            System.out.println(queue.poll());
 
         }
 

@@ -1,10 +1,12 @@
-import java.util.Collection;
+package ClassDemoPrograms;
+
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class PriorityQueueExample {
     public static void main(String[] args) {
 
-        PriorityQueue<Integer> pqueue =  new PriorityQueue<>();
+        PriorityQueue<String> pqueue =  new PriorityQueue<>();
         pqueue.add("A");
         pqueue.add("C");
         pqueue.add("B");
@@ -12,7 +14,7 @@ public class PriorityQueueExample {
 
         System.out.println(pqueue);
 
-        PriorityQueue customQueue = new PriorityQueue<>(Collection.reverseOrder());
+        PriorityQueue<String> customQueue = new PriorityQueue<>(Collections.reverseOrder());
         customQueue.add("A");
         customQueue.add("B");
         customQueue.add("X");
